@@ -8,7 +8,15 @@ const map = new mapboxgl.Map({
   zoom: 3,
 });
 
+// Navigation Control
 map.addControl(new mapboxgl.NavigationControl());
+// Directions Control
+map.addControl(
+  new MapboxDirections({
+    accessToken: mapboxgl.accessToken,
+  }),
+  'top-left'
+);
 
 map.on('load', function () {
   // Add a new source from our GeoJSON data and
