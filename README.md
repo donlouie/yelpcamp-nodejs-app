@@ -6,7 +6,7 @@
 
 Completed web development project from The Web Developer Bootcamp 2021-Colt Steele
 
-## Project Image Preview
+### 🖼️ Image Preview
 ![Imgur](https://i.imgur.com/tzl1Kbd.png)
 
 
