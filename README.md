@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple example steps. -->
    ```sh
    npm install
    ```
-3. Enter your API in `config.js`
+3. Enter your API in `.env` file
 
 <!-- LICENSE -->
 
